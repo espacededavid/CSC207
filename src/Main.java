@@ -3,6 +3,11 @@ class Main {
         A a0 = new A();
         A a = new B();
         B b = new B();
+        A1 X = new B();
+        // we can use an interface as the declare type, given that the actual type implements this interface
+
+
+
         System.out.println(a.x);
         // when getting a variable (if both the actual type and the declare type have the same variable),
         // look at the declare type then look at the actual type
